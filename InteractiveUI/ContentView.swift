@@ -20,6 +20,7 @@ struct ContentView: View {
             Button("Submit Name") {
                 /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
             }//closes button
+        
             
         }
         .padding()
