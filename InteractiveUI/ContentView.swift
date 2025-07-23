@@ -10,10 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text ("What is your name?")
+                .font(.title)
+                .fontWeight(.semibold)
+            TextField("Type name here", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                .multilineTextAlignment(.center)
+                    .font(.title)
+                    .border(Color.gray, width: 1)
+            Button("Submit Name") {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+            }//closes button
+            
         }
         .padding()
     }
